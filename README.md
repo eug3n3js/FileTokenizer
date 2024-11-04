@@ -21,9 +21,9 @@ To index a text file or all text files in a directory:
 Enter 1 to tokenize file or dir.
 Enter 2 to search files for a specific word.
 Enter 3 to exit.
-> 1
+1
 Enter file or directory absolute path / relative path in project folder
-> files/lorem1.txt
+files/lorem1.txt
 File tokenized successfully
 ```
 
@@ -31,9 +31,9 @@ File tokenized successfully
 Enter 1 to tokenize file or dir.
 Enter 2 to search files for a specific word.
 Enter 3 to exit.
-> 1
+1
 Enter file or directory absolute path / relative path in project folder
-> files
+files
 Tokenized: 2 files out of: 2
 ```
 
@@ -44,9 +44,9 @@ After indexing, you can search for files containing a word:
 Enter 1 to tokenize file or dir.
 Enter 2 to search files for a specific word.
 Enter 3 to exit.
-> 2
+2
 Enter word to search
-> Lorem
+Lorem
 Found 1 result:
 C:\Users\user\IdeaProjects\FileTokenizer\files\lorem1.txt
 C:\Users\user\IdeaProjects\FileTokenizer\files\lorem2.txt
@@ -57,7 +57,7 @@ C:\Users\user\IdeaProjects\FileTokenizer\files\lorem2.txt
 Enter 1 to tokenize file or dir.
 Enter 2 to search files for a specific word.
 Enter 3 to exit.
-> 3
+3
 
 Process finished with exit code 0
 ```
