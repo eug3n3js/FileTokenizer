@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
-public class ConsoleInterface<T> {
-    private final Indexer<T> indexer;
+public class ConsoleInterface {
+    private final Indexer<?> indexer;
     private final Scanner scanner;
 
-    public ConsoleInterface(Tokenizer<T> tokenizer){
+    public ConsoleInterface(Tokenizer<?> tokenizer){
         indexer = new Indexer<>(tokenizer);
         scanner = new Scanner(System.in);
     }
